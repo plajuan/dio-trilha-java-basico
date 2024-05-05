@@ -26,6 +26,7 @@ classDiagram
     HardwareDriver <|.. Screen
     HardwareDriver <|.. Speaker
     IPhone *-- HardwareDriver
+    IPhone o-- PhoneApp
     class IPhone
     namespace apps{
     	class PhoneApp{
@@ -39,6 +40,8 @@ classDiagram
     namespace hwdrivers{
     	class HardwareDriver{
     		<<interface>>
+            +wakeUp()
+            +idle()
     	}
     	class FileSystem
     	class ProximitySensor
