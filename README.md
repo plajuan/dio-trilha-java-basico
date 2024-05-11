@@ -1,7 +1,7 @@
 # dio-trilha-java-basico
 Projeto para a entrega dos desafios do Curso "Santander 2024 - Backend com Java"
 
-Os desafios de código estão abaixo.
+Os desafios de cÃ³digo estÃ£o abaixo.
 
 ## Siulador de Conta de Banco no Terminal
 ```
@@ -48,4 +48,9 @@ classDiagram
     	class Screen
     	class Speaker
     }
+```
+
+##Laboratório Banco Digital
+```
+org.juanpla.bancodigital.App
 ```
